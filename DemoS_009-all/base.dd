@@ -102,7 +102,7 @@ SET TS_MAP
 
 SET UNITS
 /
-'000_UNITS'
+'000_Units'
 'GW'
 'MT-Y'
 'PJa'
@@ -143,7 +143,7 @@ SET UNITS_COM
 
 SET UNITS_CAP
 /
-'000_UNITS'
+'000_Units'
 'GW'
 'PJa'
 

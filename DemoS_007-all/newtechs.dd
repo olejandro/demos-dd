@@ -7,9 +7,9 @@ $SET SCENARIO_NAME 'newtechs'
 
 SET UNITS_CAP
 /
-'000_UNITS'
+'000_Units'
 'GW'
-'PJA'
+'PJa'
 
 /;
 
