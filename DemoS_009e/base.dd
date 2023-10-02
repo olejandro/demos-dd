@@ -105,7 +105,7 @@ SET UNITS
 '000_UNITS'
 'GW'
 'MT-Y'
-'PJA'
+'PJa'
 
 /;
 
@@ -145,7 +145,7 @@ SET UNITS_CAP
 /
 '000_UNITS'
 'GW'
-'PJA'
+'PJa'
 
 /;
 

@@ -48,7 +48,7 @@ SET TS_GROUP
 
 SET UNITS
 /
-'PJA'
+'PJa'
 
 /;
 
@@ -81,7 +81,7 @@ SET UNITS_COM
 
 SET UNITS_CAP
 /
-'PJA'
+'PJa'
 
 /;
 

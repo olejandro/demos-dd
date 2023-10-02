@@ -85,7 +85,7 @@ SET TS_MAP
 SET UNITS
 /
 'GW'
-'PJA'
+'PJa'
 
 /;
 
@@ -119,7 +119,7 @@ SET UNITS_COM
 SET UNITS_CAP
 /
 'GW'
-'PJA'
+'PJa'
 
 /;
 
