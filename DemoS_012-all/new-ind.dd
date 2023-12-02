@@ -7,15 +7,15 @@ $SET SCENARIO_NAME 'new-ind'
 
 SET UNITS_COM
 /
-'Mt'
+'MT'
 'PJ'
 
 /;
 
 SET UNITS_CAP
 /
-'Mt-y'
-'PJa'
+'MT-Y'
+'PJA'
 
 /;
 
@@ -74,17 +74,17 @@ SET COM_TMAP
 
 SET COM_UNIT
 /
-'REG1'.'DIIS'.'Mt'
-'REG1'.'IISIRO'.'Mt'
-'REG1'.'IISORE'.'Mt'
-'REG1'.'IISRST'.'Mt'
-'REG1'.'IISSIN'.'Mt'
+'REG1'.'DIIS'.'MT'
+'REG1'.'IISIRO'.'MT'
+'REG1'.'IISORE'.'MT'
+'REG1'.'IISRST'.'MT'
+'REG1'.'IISSIN'.'MT'
 'REG1'.'INDOXY'.'PJ'
-'REG2'.'DIIS'.'Mt'
-'REG2'.'IISIRO'.'Mt'
-'REG2'.'IISORE'.'Mt'
-'REG2'.'IISRST'.'Mt'
-'REG2'.'IISSIN'.'Mt'
+'REG2'.'DIIS'.'MT'
+'REG2'.'IISIRO'.'MT'
+'REG2'.'IISORE'.'MT'
+'REG2'.'IISRST'.'MT'
+'REG2'.'IISSIN'.'MT'
 'REG2'.'INDOXY'.'PJ'
 
 /;

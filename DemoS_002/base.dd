@@ -48,7 +48,7 @@ SET TS_GROUP
 
 SET UNITS
 /
-'PJa'
+'PJA'
 
 /;
 
@@ -60,34 +60,34 @@ SET UNITS
 
 SET UNITS
 /
-'kt'
+'KT'
 'PJ'
 
 /;
 
 SET UNITS
 /
-'Mt'
+'MT'
 'PJ'
 
 /;
 
 SET UNITS_COM
 /
-'kt'
+'KT'
 'PJ'
 
 /;
 
 SET UNITS_CAP
 /
-'PJa'
+'PJA'
 
 /;
 
 SET UNITS_ACT
 /
-'Mt'
+'MT'
 'PJ'
 
 /;
@@ -150,10 +150,10 @@ SET COM_UNIT
 'REG1'.'DTD1'.'PJ'
 'REG1'.'GAS'.'PJ'
 'REG1'.'OIL'.'PJ'
-'REG1'.'RSDCO2'.'kt'
+'REG1'.'RSDCO2'.'KT'
 'REG1'.'RSDGAS'.'PJ'
 'REG1'.'TPSCOA'.'PJ'
-'REG1'.'TRACO2'.'kt'
+'REG1'.'TRACO2'.'KT'
 'REG1'.'TRAOIL'.'PJ'
 
 /;
@@ -259,7 +259,7 @@ SET PRC_ACTUNT
 'REG1'.'IMPCOA1'.'COA'.'PJ'
 'REG1'.'IMPDEMZ'.'DEM'.'PJ'
 'REG1'.'IMPGAS1'.'GAS'.'PJ'
-'REG1'.'IMPMATZ'.'MAT'.'Mt'
+'REG1'.'IMPMATZ'.'MAT'.'MT'
 'REG1'.'IMPNRGZ'.'NRG'.'PJ'
 'REG1'.'IMPOIL1'.'OIL'.'PJ'
 'REG1'.'MINCOA1'.'COA'.'PJ'
