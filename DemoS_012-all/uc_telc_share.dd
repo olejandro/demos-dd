@@ -5,86 +5,38 @@ $SET RUN_NAME 'DEMOS_012-ALL'
 $SET SCENARIO_NAME 'uc_telc_share'
 
 
-SET UNITS_COM
-/
-'UCU'
-
-/;
-
-SET COM_TMAP
-/
-'REG1'.'NRG'.'UCS_TELC_MinShare-'
-'REG1'.'NRG'.'UCS_TELC_MinShare_'
-'REG2'.'NRG'.'UCS_TELC_MinShare-'
-'REG2'.'NRG'.'UCS_TELC_MinShare_'
-
-/;
-
-SET COM_UNIT
-/
-'REG1'.'UCS_TELC_MinShare-'.'UCU'
-'REG1'.'UCS_TELC_MinShare_'.'UCU'
-'REG2'.'UCS_TELC_MinShare-'.'UCU'
-'REG2'.'UCS_TELC_MinShare_'.'UCU'
-
-/;
-
-SET TOP_IRE
-/
-'IMPEXP'.'UCS_TELC_MinShare-'.'REG1'.'UCS_TELC_MinShare-'.'IMPNRGZ'
-'IMPEXP'.'UCS_TELC_MinShare-'.'REG2'.'UCS_TELC_MinShare-'.'IMPNRGZ'
-'IMPEXP'.'UCS_TELC_MinShare_'.'REG1'.'UCS_TELC_MinShare_'.'IMPNRGZ'
-'IMPEXP'.'UCS_TELC_MinShare_'.'REG2'.'UCS_TELC_MinShare_'.'IMPNRGZ'
-
-/;
-
-SET COM_DESC
-/
-'REG1'.'UCS_TELC_MinShare-' 'Negative dummy var for UC: UCS_TELC_MinShare'
-'REG1'.'UCS_TELC_MinShare_' 'Positive dummy var for UC: UCS_TELC_MinShare'
-'REG2'.'UCS_TELC_MinShare-' 'Negative dummy var for UC: UCS_TELC_MinShare'
-'REG2'.'UCS_TELC_MinShare_' 'Positive dummy var for UC: UCS_TELC_MinShare'
-
-/;
-
 SET UC_R_EACH
+
 /
 'REG1'.'UCS_TELC_MinShare'
 'REG2'.'UCS_TELC_MinShare'
-
 /;
 
 PARAMETER
+
 UC_ACT ' '/
 'UCS_TELC_MinShare'.LHS.'REG1'.2010.'TCANELC1'.ANNUAL 1
 'UCS_TELC_MinShare'.LHS.'REG1'.2050.'TCANELC1'.ANNUAL 1
 'UCS_TELC_MinShare'.LHS.'REG2'.2010.'TCANELC1'.ANNUAL 1
 'UCS_TELC_MinShare'.LHS.'REG2'.2050.'TCANELC1'.ANNUAL 1
-
 /;
+
 PARAMETER
+
 UC_COMPRD ' '/
 'UCS_TELC_MinShare'.LHS.'REG1'.2010.'DTCAR'.ANNUAL -0.01
 'UCS_TELC_MinShare'.LHS.'REG1'.2050.'DTCAR'.ANNUAL -0.05
 'UCS_TELC_MinShare'.LHS.'REG2'.2010.'DTCAR'.ANNUAL -0.01
 'UCS_TELC_MinShare'.LHS.'REG2'.2050.'DTCAR'.ANNUAL -0.1
-
 /;
-PARAMETER
-UC_IRE ' '/
-'UCS_TELC_MinShare'.LHS.'REG1'.2005.'IMPNRGZ'.'UCS_TELC_MinShare-'.ANNUAL.IMP -1
-'UCS_TELC_MinShare'.LHS.'REG1'.2005.'IMPNRGZ'.'UCS_TELC_MinShare_'.ANNUAL.IMP 1
-'UCS_TELC_MinShare'.LHS.'REG2'.2005.'IMPNRGZ'.'UCS_TELC_MinShare-'.ANNUAL.IMP -1
-'UCS_TELC_MinShare'.LHS.'REG2'.2005.'IMPNRGZ'.'UCS_TELC_MinShare_'.ANNUAL.IMP 1
 
-/;
 PARAMETER
+
 UC_RHSRTS ' '/
 'REG1'.'UCS_TELC_MinShare'.0.ANNUAL.LO 15
 'REG1'.'UCS_TELC_MinShare'.2010.ANNUAL.LO 0
 'REG2'.'UCS_TELC_MinShare'.0.ANNUAL.LO 15
 'REG2'.'UCS_TELC_MinShare'.2010.ANNUAL.LO 0
-
 /;
 
 
