@@ -32,6 +32,11 @@ COM_IE ' '/
 
 /;
 PARAMETER
+COM_PKRSV ' '/
+'REG1'.0.'ELC' 5
+
+/;
+PARAMETER
 G_DRATE ' '/
 'REG1'.2005.'MEuro05' 0.05
 
